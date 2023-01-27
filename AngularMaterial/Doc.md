@@ -17,46 +17,44 @@ $is-dark-theme: map.get(
 ); //recupera um booleano que armazena se o tema está dark ou não
 ```
 
-- ## Cores recuperadas do background:
+- ## Cores padrão recuperadas do background:
+| Propriedade  | Valor  |
+|---|---|
+| status-bar  | black  |
+| app-bar  | #212121  |
+| background  | #303030  |
+| hover  | rgba(255, 255, 255, 0.04)  |
+| card  | #424242  |
+| dialog  | #424242  |
+| disabled-button  | rgba(255, 255, 255, 0.12)  |
+| raised-button  | #424242  |
+| focused-button  | rgba(255, 255, 255, 0.12)  |
+| selected-button  | #212121  |
+| selected-disabled-button | #424242 |
+| disabled-button-toggle | black |
+| unselected-chip | #616161 |
+| disabled-list-option | rgba(255, 255, 255, 0.12) |
+| tooltip | #616161 |
 
-```json
-  status-bar: black
-  app-bar: #212121,
-  background: #303030,
-  hover: rgba(255, 255, 255, 0.04),
-  card: #424242,
-  dialog: #424242,
-  disabled-button: rgba(255, 255, 255, 0.12),
-  raised-button: #424242,
-  focused-button: rgba(255, 255, 255, 0.12),
-  selected-button: #212121,
-  selected-disabled-button: #424242,
-  disabled-button-toggle: black,
-  unselected-chip: #616161,
-  disabled-list-option: rgba(255,
-  255, 255, 0.12),
-  tooltip: #616161) isn't a valid CSS value.
-```
+- ## Cores padrão recuperadas do foreground:
 
-- ## Cores recuperadas do foreground:
-
-```json
-  base: white,
-  divider: rgba(255, 255, 255, 0.12),
-  dividers: rgba(255, 255, 255, 0.12),
-  disabled: rgba(255, 255, 255, 0.5),
-  disabled-button: rgba(255, 255, 255, 0.3),
-  disabled-text: rgba(255, 255, 255, 0.5),
-  elevation: black,
-  hint-text: rgba(255, 255, 255, 0.5),
-  secondary-text: rgba(255, 255, 255, 0.7),
-  icon: white,
-  icons: white,
-  text: white,
-  slider-min: white,
-  slider-off: rgba(255, 255, 255, 0.3),
-  slider-off-active: rgba(255, 255, 255, 0.3)) isn't a valid CSS value.
-```
+| Propriedade  | Valor  |
+|---|---|
+| base | white |
+| divider | rgba(255, 255, 255, 0.12) |
+| dividers | rgba(255, 255, 255, 0.12) |
+| disabled | rgba(255, 255, 255, 0.5) |
+| disabled-button | rgba(255, 255, 255, 0.3) |
+| disabled-text | rgba(255, 255, 255, 0.5) |
+| elevation | black |
+| hint-text | rgba(255, 255, 255, 0.5) |
+| secondary-text | rgba(255, 255, 255, 0.7) |
+| icon | white |
+| icons |  white |
+| text | white |
+| slider-min | white |
+| slider-off | rgba(255, 255, 255, 0.3) |
+| slider-off-active | rgba(255, 255, 255, 0.3) |
 
 - ## Recuperando cor disponivel "background" no background:
 
